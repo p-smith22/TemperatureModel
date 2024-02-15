@@ -1,5 +1,6 @@
 # TemperatureModel
 
+Temperature Model
 
 /*****
 Parker Smith      Pennsylvania State University
@@ -10,3 +11,5 @@ In the initial function, the array will be initialized and filled with zeroes. T
 
 Main then calls the function "inside_rows". This works similarly to the previous function, using a nested for to cycle through all the values of the array (besides the edge tiles, since those are considered constant). It then finds the values of the four surrounding values for each tile and divides them by 4 to find the new temperature. The code will then calculate the change in temperature for each value. If it is greater than epsilon, a test variable is set to 1. If any value is greater than epsilon, the loop runs again. If all values are less than epsilon, the loop will end because the value will stay at zero (The entire loop is contained in a do while, so a non "1" value will end the loop. The code will then output the array at the end of each iteration, regardless of the outcome. The final iteration will be the equilibrium of the tiles. 
 *****/
+
+
