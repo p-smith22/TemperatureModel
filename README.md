@@ -1,6 +1,6 @@
 # TemperatureModel
 
-Parker Smith      Pennsylvania State University
+Parker Smith 
 ------------------------------------------------
 The purpose of this code is to calculate a prediction for the internal temperatures of a surface with heat applied to its edges. The code will first set the global variables for maximum values (rows as 26 and columns as 30). The code then initializes the functions using function prototypes. As the program moves into the main function, it will create a two-dimensional array and prompt the user to enter the dimensions of the array, using while loops to ensure the values are within the required parameters (if it is below 3, the function will not run correctly because there are no "interior" tiles). Main then prompts the user to input temperatures along each edge (top, left, right, bottom), and the value for epsilon (epsilon is the variable name used to describe the change in temperatures of each tile in between iterations. It will essentially tell your code when to end since it will end once the change in temperature of all tiles is less than epsilon). These values are all called to function "value_check", which will use a while function to ensure the value is within the parameters (0 and 300). These values are returned by reference. After main has all its variables, it will function call "initial". 
 
